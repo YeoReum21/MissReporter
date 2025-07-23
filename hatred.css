@@ -1,0 +1,77 @@
+body{
+
+  padding: 5%;
+  padding-top: 10%;
+  background-image: url(photo-1612733569919-31dab539b82a.jpg);
+  background-color: rgb(158, 135, 135);
+    
+}
+
+* {
+
+}
+
+button {
+
+  font-size: 50px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+  
+}
+
+
+.center-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+}
+
+
+.rizz{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.game{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.rizz button  {
+background-color: rgb(255, 149, 149);
+transition: linear 1s
+}
+
+.game button  {
+background-color: rgb(232, 208, 255);
+transition: linear 1s
+}
+
+.rizz button:hover {
+  background-color: rgb(255, 72, 0); 
+  scale: 1.5;
+}
+
+.game button:hover {
+  background-color: rgb(196, 255, 129);
+  scale: 1.5;
+}
+
+.rizz button:active {
+  background-color: rgb(57, 255, 189);
+
+}
+
+.game button:active {
+  background-color: rgb(255, 31, 31);
+}
+
+a {
+  text-decoration: none;
+}
+
